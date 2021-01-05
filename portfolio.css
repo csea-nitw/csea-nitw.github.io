@@ -1,0 +1,24 @@
+.header{
+    margin: 10px;
+    padding: 10px;
+    background-color: #e7d9ea;
+    display: inline-block;
+    border-radius: 4px;
+}
+#head1{
+    margin: 10px;
+    padding: 10px;
+    color: blueviolet;
+    background-color: #ffd56b;
+    border-radius: 4px;
+    box-shadow: 5px 10px #888888;
+    display: inline-block;
+}
+#head2{
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffc764;
+    border-radius: 4px;
+    box-shadow: 5px 10px #888888;
+    display: inline-block;
+}
