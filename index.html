@@ -7,17 +7,193 @@
         <link href="./portfolio.css" rel="stylesheet">
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    	
+	 <style>
+    	.fa
+    	{
+        	padding:10px;
+        	font-size: 30px;
+        	width:25px;
+        	text-align: center;
+        	margin: 5px 5px;
+        	color: white;
+   	 }
+    	.fa:hover {opacity: 0.7;}
+    	.scrollspy
+    	{
+        	position: relative;
+        	height:200px;
+        	overflow:auto;
+   	}
+	</style>
+    	    
     </head>
     <body>
-        <div class="container header">
-            <div class="jumbotron">
-                <h1 id="head1">Hello World!!</h1>
-            </div>
-            <div class="jumbotron">
-                <h2 id="head2">This is the demo page!!</h2>
-		Hello!!!
-            </div>
+<!-- Header -->
+<header>
+  <!-- Navigation Bar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="https://www.cseanitw.in/home/">
+        <img src="logo.png" alt="" width="100" height="70" class="d-inline-block align-top">
+        <!-- <strong>CSEA</strong> -->
+      </a>
+
+      <button
+        class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <!-- This is to go back to the start of the page -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#About">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Educational Background">Educational Background</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Achievements">Achievements</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Experience">Experience</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Misc">Misc</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Header Section -->
+
+    <div class="p-5 text-center bg-image"
+    style="background-image:url('https://c4.wallpaperflare.com/wallpaper/750/62/565/grey-elegant-background-wallpaper-preview.jpg');
+    height:400px;width:auto;"
+    >
+    <!-- <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"> -->
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Hi,I am CSEA! <img src="https://cliply.co/wp-content/uploads/2019/06/391906110_WAVING_HAND_400px.gif" alt="" height="50" width="50"> </h1>
+          <h3 class="mb-3">The Best Association of NITW</h3>
         </div>
+      </div>
+</header>
+
+<br><br>
+
+<!-- Scroll control -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+         <div
+            data-mdb-spy="scroll"
+            data-mdb-target="#scrollspy"
+            data-mdb-offset="0"
+            class="scrollspy"
+            style="text-align:center"
+         >
+            <section id="About">
+                <h3 style="text-align:center">About</h3>
+                <div class="container">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                       ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                         mollit anim id est laborum.
+                   </p>
+                </div>
+            </section>
+
+            <section id="Educational Background">
+            </section>
+
+            <section id="Achievements">
+            </section>
+
+            <section id="Skills">
+            </section>
+
+            <section id="Experience">
+            </section>
+
+            <section id="Projects">
+            </section>
+
+            <section id="Misc">
+            </section>
+
+         </div>
+      </div>
+
+      <div class="">
+
+      </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center text-lg-start">
+    <div class="container p-4">
+       <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+             <h3>Reach out to me!</h3>
+             <p>
+               Want to discuss about some amazing idea or just say Hi?
+               My Inbox is always open!!
+             </p>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+               cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+          </div>
+
+         <img class="col-lg-6 col-md-12 mb-4 mb-md-0" src="https://www.launchcode.org/blog/wp-content/uploads/2018/02/gail-blog-e1519328899987.jpg" height="250" width="500" alt="">
+       </div>
+
+       <p>
+         <a href="https://www.facebook.com/cseanitw/" class="fa fa-facebook"></a>
+         <a href="mailto:csea@student.nitw.ac.in" class="fa fa-google"></a>
+         <a href="https://www.linkedin.com/company/csea-nitw/" class="fa fa-linkedin"></a>
+         <a href="https://www.instagram.com/csea_nitw/?hl=en" class="fa fa-instagram"></a>
+         <a href="https://www.youtube.com/channel/UCncaLmXj3WstjFut4w8vepQ" class="fa fa-youtube"></a>
+       </p>
+
+        <div style="text-align:center">
+            <span class="copyright">
+            &copy; Copyright CSEA, NIT Warangal. All rights reserved.
+            <p>Made with 💗 by CSEA Web Dev Team!</p>
+          </span>
+        </div>
+
+    </div>
+</footer>
     </body>
     <script src='./portfolio.js'></script>
 </html>
