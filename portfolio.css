@@ -5,20 +5,18 @@
     display: inline-block;
     border-radius: 4px;
 }
-#head1{
+#proj1{
     margin: 10px;
     padding: 10px;
-    color: blueviolet;
-    background-color: #ffd56b;
-    border-radius: 4px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0 3px 6px #9b9b9b;
     display: inline-block;
 }
-#head2{
-    margin: 10px;
-    padding: 10px;
-    background-color: #ffc764;
-    border-radius: 4px;
-    box-shadow: 5px 10px #888888;
+#proj1:hover{
+    box-shadow: 0 4px 8px rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+.inside_proj{
     display: inline-block;
+    margin: 5px;
 }
