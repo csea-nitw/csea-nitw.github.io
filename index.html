@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio</title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="./portfolio.css" rel="stylesheet">
+  <link href='css/bootstrap.css' rel='stylesheet'/>
+  <link href='css/rotating-card.css' rel='stylesheet'/>
+ 
+ <style>
+    .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 25px;
+      text-align: center;
+      margin: 5px 5px;
+      color: white;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .container {
+      font-size: 20px;
+    }
+
+    html,
+    body {
+      height: 60%;
+    }
+
+    #wrap {
+      min-height: 100%;
+    }
+
+    #main {
+      overflow: auto;
+      padding-bottom: 50px;
+      /* this needs to be bigger than footer height*/
+    }
+
+    .stickyfooter {
+      position: relative;
+      margin-top: -50px;
+      /* negative value of footer height */
+      clear: both;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="https://www.cseanitw.in/home/">
+          <img src="https://www.nitw.ac.in/media/csea.jpg" alt="" width="100" height="70"
+            class="d-inline-block align-top">
+          <!-- <strong>CSEA</strong> -->
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <!-- This is to go back to the start of the page -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#About">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Educational Background">Educational Background</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Achievements">Achievements</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Experience">Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Misc">Misc</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+
+    <div class="p-5 text-center bg-image" style="background-image:url('https://c4.wallpaperflare.com/wallpaper/750/62/565/grey-elegant-background-wallpaper-preview.jpg');
+    height:400px;width:auto;">
+      <!-- <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"> -->
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Hi,I am CSEA! <img
+              src="https://cliply.co/wp-content/uploads/2019/06/391906110_WAVING_HAND_400px.gif" alt="" height="50"
+              width="50"> </h1>
+          <h3 class="mb-3">The Best Association of NITW</h3>
+        </div>
+      </div>
+  </header>
+
+  <br><br>
+
+  <!-- Scroll control & Content -->
+  <div id="wrap">
+    <div class="container clear-top" id="main">
+      <div class="container">
+        <section id="About">
+          <h3 style="text-align:center">About</h3>
+          <div class="container">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </div>
+        </section>
+
+        <section id="Educational Background">
+          <h2>Educational Background</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+        </section>
+
+        <section id="Achievements">
+          <h2>Achievements</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+        </section>
+
+        <section id="Skills">
+          <h2>Skills </h2>
+          <div class="background-white">
+            <div  class="container ">
+            
+            <hr>
+              <div class="row">
+                
+
+                <div class="col-md-6 ">
+                  <ul style="list-style-type:none">
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/Bootstrap-Logo-PNG.png" alt="Skills" width="96" height="96">
+                        Bootstrap
+                      </div>              
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/css.png" alt="Skills" width="96" height="96">
+                        Css
+                      </div> 
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/python.png" alt="Skills" width="96" height="96">
+                        Python
+                      </div> 
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/php.png" alt="Skills" width="96" height="96">
+                        PHP
+                      </div> 
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-md-6 ">
+                  <ul style="list-style-type: none;">
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/Bootstrap-Logo-PNG.png" alt="Skills" width="96" height="96">
+                        Bootstrap
+                      </div>              
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/css.png" alt="Skills" width="96" height="96">
+                        CSS
+                      </div> 
+                    </li>
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/python.png" alt="Skills" width="96" height="96">
+                        Python
+                      </div> 
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/php.png" alt="Skills" width="96" height="96">
+                        PHP
+                      </div> 
+                    </li>
+                  </ul>
+                  </ul>
+                </div>
+
+
+              </div>
+
+              <hr>
+
+              <h3>Tools</h3>
+
+              <div class="row">
+
+                <div class="col-md-6">
+                  <ul style="list-style-type: none;">
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/firefox.png" alt="Skills">
+                        Firefox
+                      </div>              
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/ms.png" alt="Skills" >
+                        MS Office
+                      </div> 
+                    </li>
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/firefox.png" alt="Skills">
+                        Firefox
+                      </div>              
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/ms.png" alt="Skills" >
+                        MS Office
+                      </div> 
+                    </li>
+                  </ul>                  
+                </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullets">
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/firefox.png" alt="Skills">
+                        Firefox
+                      </div>              
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/ms.png" alt="Skills" >
+                        MS Office
+                      </div> 
+                    </li>
+                    <li>
+                      <div class="chip">
+                        <img src="./media/firefox.png" alt="Skills">
+                        Firefox
+                      </div>              
+                    </li>
+
+
+
+                    <li>
+                      <div class="chip">
+                        <img src="./media/ms.png" alt="Skills" >
+                        MS Office
+                      </div> 
+                    </li>
+                  </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="Experience">
+          <div class="row">
+            <h2>
+              Experience
+            </h2>
+          </div>
+
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-sm">
+                <div class="card-container">
+                  <div class="card">
+                    <div class="front">
+                      <div class="cover bg-dark">
+
+                      </div>
+                      <div class="user">
+                        <img class="img-circle" src="media/fb.png" />
+                      </div>
+                      <div class="content">
+                        <div class="main">
+                          <h1 class="name">Facebook</h1>
+                          <p class="profession"><b> Software Engineer</b> <br> August 2017 - January 2018</p>
+                          <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                            molestias accusantium commodi amet odit..</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <div class="content">
+                        <div class="main mt-5">
+                          <h4 class="text-center"><b>Techonlogies Used</b></h4>
+                          <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                          <div class="content">
+                            <div class="name"><b>Achievements</b></div>
+                            <div class="Profession">
+                              <ul>
+                                <li>Noteworthy achievment here.</li>
+                                <li>Noteworthy achievment here.</li>
+                                <li>Noteworthy achievment here.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card-container">
+                  <div class="card">
+                    <div class="front">
+                      <div class="cover bg-dark">
+
+                      </div>
+                      <div class="user">
+                        <img class="img-circle" src="media/google.png" />
+                      </div>
+                      <div class="content">
+                        <div class="main">
+                          <h1 class="name">Google </h1>
+                          <p class="profession"><b> Software Engineer</b> <br> August 2017 - January 2018</p>
+                          <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                            molestias accusantium commodi amet odit..</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <div class="content">
+                        <div class="main mt-5">
+                          <h4 class="text-center"><b>Techonlogies Used</b></h4>
+                          <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                          <div class="content">
+                            <div class="name"><b>Achievements</b></div>
+                            <div class="Profession">
+                              <ul>
+                                <li>Noteworthy achievment here.</li>
+                                <li>Noteworthy achievment here.</li>
+                                <li>Noteworthy achievment here.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card-container">
+                  <div class="card">
+                    <div class="front">
+                      <div class="cover bg-dark">
+
+                      </div>
+                      <div class="user">
+                        <img class="img-circle" src="media/apple.png" />
+                      </div>
+                      <div class="content">
+                        <div class="main">
+                          <h1 class="name">Apple</h1>
+                          <p class="profession"><b> Software Engineer</b> <br> August 2017 - January 2018</p>
+                          <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                            molestias accusantium commodi amet odit..</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <div class="content">
+                        <div class="main mt-5">
+                          <h4 class="text-center"><b>Techonlogies Used</b></h4>
+                          <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                          <div class="content">
+                            <div class="name"><b>Achievements</b></div>
+                            <div class="Profession">
+                              <ul>
+                                <li>Noteworthy achievment here.</li>
+                                <li>Noteworthy achievment here.</li>
+                                <li>Noteworthy achievment here.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="Projects">
+          <h2>Projects</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+          <div style='text-align: center;'>
+            <section id="proj1" onclick='window.location.href="https://github.com/aks2507/django-deployment-example"'>
+              <div class='inside_proj'>
+                <img src="./media/project_image.jpg" alt="image not found">
+              </div>
+              <div class='inside_proj' style='text-align: center;'>
+                <h1>Project_1</h1>
+                <p>This is a test description of the project</p>
+              </div>
+            </section>
+            <section id="proj1" onclick='window.location.href="https://github.com/aks2507/django-deployment-example"'>
+              <div class='inside_proj'>
+                <img src="./media/project_image.jpg" alt="image not found">
+              </div>
+              <div class='inside_proj' style='text-align: center;'>
+                <h1>Project_2</h1>
+                <p>This is a test description of the project</p>
+              </div>
+            </section>
+            <section id="proj1" onclick='window.location.href="https://github.com/aks2507/django-deployment-example"'>
+              <div class='inside_proj'>
+                <img src="./media/project_image.jpg" alt="image not found">
+              </div>
+              <div class='inside_proj' style='text-align: center;'>
+                <h1>Project_3</h1>
+                <p>This is a test description of the project</p>
+              </div>
+            </section>
+          </div>
+          <section id="Projects">
+            <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.</p>
+          </section>
+
+          <section id="Misc">
+            <h3 style="text-align:center">Misc</h3>
+            <div class="container">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.
+              </p>
+            </div>
+          </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center text-lg-start stickyfooter">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h3>Reach out to me!</h3>
+          <p>
+            Want to discuss about some amazing idea or just say Hi?
+            My Inbox is always open!!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <img class="col-lg-6 col-md-12 mb-4 mb-md-0"
+          src="https://www.launchcode.org/blog/wp-content/uploads/2018/02/gail-blog-e1519328899987.jpg" height="250"
+          width="500" alt="">
+      </div>
+
+      <p>
+        <a href="https://www.facebook.com/cseanitw/" class="fa fa-facebook"></a>
+        <a href="mailto:csea@student.nitw.ac.in" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/company/csea-nitw/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/csea_nitw/?hl=en" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCncaLmXj3WstjFut4w8vepQ" class="fa fa-youtube"></a>
+      </p>
+
+      <div style="text-align:center">
+        <span class="copyright">
+          &copy; Copyright CSEA, NIT Warangal. All rights reserved.
+          <p>Made with 💗 by CSEA Web Dev Team!</p>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src='./jquery-3.5.1.min.js'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src='./portfolio.js'></script>
+</body>
+
+</html>
+
+
+</body>
+<script src='./portfolio.js'></script>
+
+</html>

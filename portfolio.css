@@ -1,0 +1,40 @@
+.header{
+    margin: 10px;
+    padding: 10px;
+    background-color: #e7d9ea;
+    display: inline-block;
+    border-radius: 4px;
+}
+#proj1{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 3px 6px #9b9b9b;
+    display: inline-block;
+}
+#proj1:hover{
+    box-shadow: 0 4px 8px rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+.inside_proj{
+    display: inline-block;
+    margin: 5px;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin:10px;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
