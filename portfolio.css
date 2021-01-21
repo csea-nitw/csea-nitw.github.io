@@ -78,6 +78,9 @@
     box-shadow: 5px 5px 10px rgb(209, 87, 65);
     border: 1px solid rgba(107, 5, 5, 0.836);
 }
+.achieve-body a{
+    margin-bottom:10px;
+}
 #proj1{
     margin: 10px;
     padding: 10px;
