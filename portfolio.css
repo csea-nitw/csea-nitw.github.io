@@ -13,42 +13,70 @@
     display: flex;
     margin-top:35px;
 }
-.card{
+.ed-card{
     margin:10px;
     padding:10px;
     box-shadow: 5px 5px 10px #999;
+    border-radius: 10px;
 }
-.card h3{
+.ed-card h3{
     opacity:0.6;
     line-height: 1.5;
     text-shadow: 5px 5px 10px rgb(105, 99, 99);
     font-size:24px;
     margin-top:10px;
 }
-.card h4{
+.ed-card h4{
     opacity:0.6;
     line-height: 1.5;
     font-size:21px;
 }
-.card p{
+.ed-card p{
     opacity:0.6;
     color: #3f474d;
     font-size:18px;
 }
-.card-list{
+.ed-list{
     opacity:0.7;
 }
-.card h3:hover{
+.ed-card h3:hover{
     opacity:0.8;
 }
-.card h4:hover{
+.ed-card h4:hover{
     opacity:0.7;
 }
-.card-body a{
+.ed-body a{
     opacity:0.8;
 }
-.card-body a:hover{
+.ed-body a:hover{
     opacity:1;
+}
+.achieve-heading h2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.achieve-body{
+    display:block;
+}
+.achieve-card-body{
+    padding:10px;
+    margin:15px;
+}
+.bg-primary:hover{
+    box-shadow: 5px 5px 10px rgb(99, 118, 204);
+    border: 1px solid rgba(3, 44, 133, 0.836);
+}
+.bg-secondary:hover{
+    box-shadow: 5px 5px 10px rgb(105, 99, 99);
+    border: 1px solid rgba(54, 52, 52, 0.836);
+}
+.bg-success:hover{
+    box-shadow: 5px 5px 10px rgb(57, 167, 94);
+    border: 1px solid rgba(4, 90, 37, 0.836);
+}
+.bg-danger:hover{
+    box-shadow: 5px 5px 10px rgb(209, 87, 65);
+    border: 1px solid rgba(107, 5, 5, 0.836);
 }
 #proj1{
     margin: 10px;
