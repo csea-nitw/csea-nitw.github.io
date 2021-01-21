@@ -5,20 +5,63 @@
     display: inline-block;
     border-radius: 4px;
 }
-#head1{
+.Education-heading h2{
+    margin-top: 15px;
+    font-size: 40px;
+}
+.Education-content{
+    display: flex;
+    margin-top:35px;
+}
+.card{
+    margin:10px;
+    padding:10px;
+    box-shadow: 5px 5px 10px #999;
+}
+.card h3{
+    opacity:0.6;
+    line-height: 1.5;
+    text-shadow: 5px 5px 10px rgb(105, 99, 99);
+    font-size:24px;
+    margin-top:10px;
+}
+.card h4{
+    opacity:0.6;
+    line-height: 1.5;
+    font-size:21px;
+}
+.card p{
+    opacity:0.6;
+    color: #3f474d;
+    font-size:18px;
+}
+.card-list{
+    opacity:0.7;
+}
+.card h3:hover{
+    opacity:0.8;
+}
+.card h4:hover{
+    opacity:0.7;
+}
+.card-body a{
+    opacity:0.8;
+}
+.card-body a:hover{
+    opacity:1;
+}
+#proj1{
     margin: 10px;
     padding: 10px;
-    color: blueviolet;
-    background-color: #ffd56b;
-    border-radius: 4px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0 3px 6px #9b9b9b;
     display: inline-block;
 }
-#head2{
-    margin: 10px;
-    padding: 10px;
-    background-color: #ffc764;
-    border-radius: 4px;
-    box-shadow: 5px 10px #888888;
+#proj1:hover{
+    box-shadow: 0 4px 8px rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+.inside_proj{
     display: inline-block;
+    margin: 5px;
 }
