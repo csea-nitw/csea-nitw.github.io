@@ -227,6 +227,7 @@
     color: #F74933;
 }
 
+
  pre.prettyprint{
     background-color: #ffffff;
     border: 1px solid #999;
@@ -285,5 +286,15 @@
     .card-container.manual-flip.hover .back{
         z-index: 5;
         visibility: visible;
+    }
+}
+
+.edu{
+    width: 40rem;
+}
+
+@media (max-width: 800px){
+    .edu{
+        width: 20rem;
     }
 }
