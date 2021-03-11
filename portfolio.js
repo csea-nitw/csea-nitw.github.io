@@ -10,3 +10,12 @@ function open_proj_1(){
 $(document).ready(function(){
     $("#proj1").click(open_proj_1());
 });
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
