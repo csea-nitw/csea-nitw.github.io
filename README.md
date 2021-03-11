@@ -11,8 +11,8 @@ CSEA is providing an awesome portfolio template that fulfills all the requiremen
 3. Clone the repository in your local device using the git clone "link" command.
 4. Make the necessary changes in the site.
 5. Run these commands in the given order-
-  1. git init
-  2. git add .
-  3. git commit -m "initial commit"
-  4. git push origin master
+   1. git init
+   2. git add .
+   3. git commit -m "initial commit"
+   4. git push origin master
 10. Open your favourite browser and search for username.github.io . You have your portfolio website ready.
